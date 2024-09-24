@@ -1,0 +1,31 @@
+.container{
+    border: solid 2px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr) ;
+    grid-template-rows: repeat(8,1fr) ;
+     
+    
+}
+
+/* gap : horizental , vertical */
+
+.child{
+    border: solid 2px red  ;
+
+    background-color: aqua;
+    padding: 20px;
+    text-align: center;
+
+}
+.child1{
+   grid-column: 1/6;
+}
+
+.child2{
+  grid-row: 2/5;
+  grid-column: 1/5;
+}
+
+.child3{
+    grid-row: 2/5;
+}
